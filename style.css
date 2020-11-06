@@ -11,7 +11,7 @@ body {
 }
 
 /*styling header section */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -19,18 +19,18 @@ body {
 }
 
 /*keeping text within header, and setting font-size*/
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /*styling .seo*/
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /*styling div (links in upper right) within .header*/
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +39,12 @@ body {
 
 }
 /*no bullet points with list*/
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
 /*keeping text horizontal in header*/
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -114,7 +114,7 @@ p {
 }
 
 /*syling benefits class*/
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -127,28 +127,28 @@ p {
 
 /*I consolidated these three classes*/
 /*styling each classes box*/
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /*I consolidated these three classes*/
 /*styling heading within heach div class in .benefits*/ 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /*I consolidated these three classes*/
 /*styling the images within the benegits class*/
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /*styling footer*/
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -156,6 +156,6 @@ p {
 }
 
 /*styling the footer header*/
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
